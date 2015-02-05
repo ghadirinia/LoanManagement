@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="domain.GrantCondition" table="grantConditions">
+        <id name="recordId" type="java.lang.Long" >
+            <column name="recordId" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="loanType"   class="domain.LoanType" fetch="select">
+            <column name="loantype_id" not-null="false"  />
+        </many-to-one>
+        <property name="minimumDuration" type="java.math.BigDecimal">
+            <column name="minimumDuration" precision="6" />
+        </property>
+        <property name="maximumDuration" type="java.math.BigDecimal">
+            <column name="maximumDuration" precision="6" />
+        </property>
+        <property name="minimumAmount" type="java.math.BigDecimal">
+            <column name="minimumAmount" precision="6" />
+        </property>
+        <property name="maximumAmount" type="java.math.BigDecimal">
+            <column name="maximumAmount" />
+        </property>
+        <property name="grantName" type="java.lang.String">
+            <column name="grantName" length="10" not-null="true" unique="true" />
+        </property>
+    </class>
+</hibernate-mapping>

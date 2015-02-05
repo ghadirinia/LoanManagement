@@ -1,0 +1,491 @@
+2015-02-03 10:42:19 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-02-03 10:42:19 INFO  Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2015-02-03 10:42:19 INFO  Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2015-02-03 10:42:19 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2015-02-03 10:42:19 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 10:42:19 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 10:42:19 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:19 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 10:42:19 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:19 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 10:42:19 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:19 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 10:42:19 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:19 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 10:42:19 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:19 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 10:42:19 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 10:42:19 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 10:42:19 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 10:42:19 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 10:42:19 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 10:42:19 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 10:42:19 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 10:42:19 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 10:42:27 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 10:42:27 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 10:42:27 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:27 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 10:42:27 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:27 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 10:42:27 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:27 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 10:42:27 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:27 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 10:42:27 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:27 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 10:42:27 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 10:42:27 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 10:42:27 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 10:42:27 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 10:42:27 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 10:42:27 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 10:42:27 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 10:42:27 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 10:42:27 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 10:42:27 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 10:42:27 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:27 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 10:42:27 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:27 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 10:42:27 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:27 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 10:42:27 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:27 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 10:42:27 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:27 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 10:42:27 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 10:42:27 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 10:42:27 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 10:42:27 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 10:42:27 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 10:42:27 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 10:42:27 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 10:42:27 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 10:42:47 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 10:42:47 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 10:42:47 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:47 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 10:42:47 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:47 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 10:42:47 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:47 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 10:42:47 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:47 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 10:42:47 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:42:47 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 10:42:47 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 10:42:47 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 10:42:47 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 10:42:47 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 10:42:47 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 10:42:47 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 10:42:47 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 10:42:47 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 10:43:30 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 10:43:30 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 10:43:30 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:43:30 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 10:43:30 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:43:30 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 10:43:30 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:43:30 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 10:43:30 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:43:30 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 10:43:30 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:43:30 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 10:43:30 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 10:43:30 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 10:43:30 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 10:43:30 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 10:43:30 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 10:43:30 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 10:43:30 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 10:43:30 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 10:43:30 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 10:43:30 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 10:43:30 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:43:30 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 10:43:30 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:43:30 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 10:43:30 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:43:30 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 10:43:30 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:43:30 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 10:43:30 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 10:43:30 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 10:43:30 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 10:43:30 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 10:43:30 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 10:43:30 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 10:43:30 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 10:43:30 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 10:43:30 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 10:43:30 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 15:58:02 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-02-03 15:58:02 INFO  Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2015-02-03 15:58:02 INFO  Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2015-02-03 15:58:02 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2015-02-03 15:58:02 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 15:58:02 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 15:58:02 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:58:02 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 15:58:02 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:58:02 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 15:58:02 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:58:02 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 15:58:02 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:58:02 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 15:58:02 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:58:02 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 15:58:02 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 15:58:02 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 15:58:02 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 15:58:02 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 15:58:02 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 15:58:03 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 15:58:03 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 15:58:03 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 15:58:03 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/customerdata]
+2015-02-03 15:58:35 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-02-03 15:58:35 INFO  Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2015-02-03 15:58:35 INFO  Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2015-02-03 15:58:35 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2015-02-03 15:58:35 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 15:58:35 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 15:58:35 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:58:35 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 15:58:35 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:58:35 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 15:58:35 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:58:35 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 15:58:35 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:58:35 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 15:58:35 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:58:35 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 15:58:35 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 15:58:35 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 15:58:35 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 15:58:35 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 15:58:35 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 15:58:36 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 15:58:36 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 15:58:36 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 15:58:36 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/customerdata]
+2015-02-03 15:59:58 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-02-03 15:59:58 INFO  Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2015-02-03 15:59:58 INFO  Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2015-02-03 15:59:58 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2015-02-03 15:59:58 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 15:59:58 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 15:59:58 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:59:58 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 15:59:58 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:59:58 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 15:59:58 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:59:58 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 15:59:58 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:59:58 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 15:59:58 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 15:59:58 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 15:59:58 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 15:59:58 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 15:59:58 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 15:59:58 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 15:59:58 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 15:59:58 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 15:59:58 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 15:59:58 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 15:59:59 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:02:47 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-02-03 16:02:47 INFO  Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2015-02-03 16:02:47 INFO  Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2015-02-03 16:02:47 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2015-02-03 16:02:47 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 16:02:47 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 16:02:47 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:02:47 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 16:02:47 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:02:47 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 16:02:47 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:02:47 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 16:02:47 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:02:47 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 16:02:47 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:02:47 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 16:02:47 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 16:02:47 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:02:47 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 16:02:47 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 16:02:47 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 16:02:47 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 16:02:47 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 16:02:47 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 16:22:11 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-02-03 16:22:11 INFO  Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2015-02-03 16:22:11 INFO  Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2015-02-03 16:22:11 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2015-02-03 16:22:11 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 16:22:11 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 16:22:11 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:22:11 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 16:22:11 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:22:11 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 16:22:11 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:22:11 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 16:22:12 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:22:12 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 16:22:12 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:22:12 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 16:22:12 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 16:22:12 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:22:12 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 16:22:12 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 16:22:12 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 16:22:12 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 16:22:12 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 16:22:12 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 16:26:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-02-03 16:26:33 INFO  Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2015-02-03 16:26:33 INFO  Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2015-02-03 16:26:33 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2015-02-03 16:26:33 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 16:26:33 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 16:26:33 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:26:33 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 16:26:33 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:26:33 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 16:26:33 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:26:33 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 16:26:33 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:26:33 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 16:26:33 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:26:33 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 16:26:33 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 16:26:33 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:26:33 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 16:26:33 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 16:26:33 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 16:26:33 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 16:26:33 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 16:26:33 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 16:27:58 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 16:27:58 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 16:27:58 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:27:58 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 16:27:58 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:27:58 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 16:27:58 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:27:58 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 16:27:58 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:27:58 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 16:27:58 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:27:58 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 16:27:58 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 16:27:58 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:27:58 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 16:27:58 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 16:27:58 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 16:27:58 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 16:27:58 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 16:27:58 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 16:28:06 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 16:28:06 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 16:28:06 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:06 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 16:28:06 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:06 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 16:28:06 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:06 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 16:28:06 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:06 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 16:28:06 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:06 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 16:28:06 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 16:28:06 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:28:06 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 16:28:06 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 16:28:06 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 16:28:06 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 16:28:06 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 16:28:06 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 16:28:18 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 16:28:18 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 16:28:18 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:18 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 16:28:18 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:18 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 16:28:18 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:18 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 16:28:18 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:18 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 16:28:18 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:18 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 16:28:18 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 16:28:18 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:28:18 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 16:28:18 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 16:28:18 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 16:28:18 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 16:28:18 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 16:28:18 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 16:28:18 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 16:28:18 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 16:28:18 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:18 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 16:28:18 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:18 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 16:28:18 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:18 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 16:28:18 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:18 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 16:28:18 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:18 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 16:28:18 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 16:28:18 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:28:18 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 16:28:18 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 16:28:18 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 16:28:18 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 16:28:18 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 16:28:18 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 16:28:24 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 16:28:24 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 16:28:24 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:24 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 16:28:24 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:24 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 16:28:24 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:24 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 16:28:24 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:24 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 16:28:24 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:24 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 16:28:24 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 16:28:24 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:28:24 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 16:28:24 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 16:28:24 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 16:28:24 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 16:28:24 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 16:28:24 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 16:28:24 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 16:28:24 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 16:28:24 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:24 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 16:28:24 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:24 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 16:28:24 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:24 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 16:28:24 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:24 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 16:28:24 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:24 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 16:28:24 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 16:28:24 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:28:24 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 16:28:24 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 16:28:24 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 16:28:24 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 16:28:24 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 16:28:24 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 16:28:48 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 16:28:48 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 16:28:48 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:48 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 16:28:48 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:48 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 16:28:48 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:48 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 16:28:48 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:48 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 16:28:48 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:28:48 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 16:28:48 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 16:28:48 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:28:48 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 16:28:48 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 16:28:48 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 16:28:48 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 16:28:48 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 16:28:48 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 16:29:39 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 16:29:39 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 16:29:39 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:29:39 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 16:29:39 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:29:39 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 16:29:39 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:29:39 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 16:29:39 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:29:39 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 16:29:39 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:29:39 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 16:29:39 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 16:29:39 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:29:39 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 16:29:39 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 16:29:39 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 16:29:39 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 16:29:39 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 16:29:39 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 16:29:39 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 16:29:39 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 16:29:39 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:29:39 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 16:29:39 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:29:39 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 16:29:39 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:29:39 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 16:29:39 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:29:39 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 16:29:39 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:29:39 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 16:29:39 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 16:29:39 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:29:39 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 16:29:39 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 16:29:39 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 16:29:39 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 16:29:39 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 16:29:39 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 16:30:16 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 16:30:16 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 16:30:16 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:30:16 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 16:30:16 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:30:16 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 16:30:16 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:30:16 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 16:30:16 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:30:16 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 16:30:16 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:30:16 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 16:30:16 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 16:30:16 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:30:16 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 16:30:16 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 16:30:16 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 16:30:16 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 16:30:16 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 16:30:16 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-02-03 16:30:16 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-02-03 16:30:16 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-02-03 16:30:16 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:30:16 INFO  Configuration:759 - HHH000221: Reading mappings from resource: customer.hbm.xml
+2015-02-03 16:30:16 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:30:16 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanFile.hbm.xml
+2015-02-03 16:30:16 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:30:16 INFO  Configuration:759 - HHH000221: Reading mappings from resource: loanType.hbm.xml
+2015-02-03 16:30:16 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:30:16 INFO  Configuration:759 - HHH000221: Reading mappings from resource: grantCondition.hbm.xml
+2015-02-03 16:30:16 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-02-03 16:30:16 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2015-02-03 16:30:16 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-03 16:30:16 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/customerdata]
+2015-02-03 16:30:16 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-02-03 16:30:16 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-02-03 16:30:16 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 7000 (min=1)
+2015-02-03 16:30:16 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-02-03 16:30:16 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-02-03 16:30:16 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory

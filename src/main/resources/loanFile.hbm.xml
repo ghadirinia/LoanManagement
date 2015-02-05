@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="domain.LoanFile" table="loanfile">
+
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <!--<property name="customerId" type="java.lang.Long">-->
+            <!--<column name="customerId" length="20" not-null="true" unique="true" />-->
+        <!--</property>-->
+        <property name="contractDuration" type="java.lang.Integer">
+            <column name="contractduration" length="20" not-null="true" unique="true" />
+        </property>
+        <property name="contractValue" type="java.lang.Integer">
+            <column name="contractValue" length="20" not-null="true" unique="true" />
+        </property>
+        <!--<property name="loanTypeId" type="java.lang.Long">-->
+            <!--<column name="loantypeId" length="20" not-null="true" unique="true" />-->
+        <!--</property>-->
+        <!--<property name="grantName" type="java.lang.String">-->
+            <!--<column name="grantname" length="20" not-null="true" unique="true" />-->
+        <!--</property>-->
+        <many-to-one name="customerId" class="domain.RealCustomer" lazy="false" cascade="none"
+                     outer-join="auto" update="true" insert="true" column="FK_customerId"></many-to-one>
+        <many-to-one name="loanTypeId" class="domain.LoanType" lazy="false" cascade="none"
+                     outer-join="auto" update="true" insert="true" column="FK_loanTypeId"></many-to-one>
+        <many-to-one name="grantConditionId" class="domain.GrantCondition" lazy="false" cascade="none"
+                     outer-join="auto" update="true" insert="true" column="FK_grantConditionId"></many-to-one>
+    </class>
+</hibernate-mapping>

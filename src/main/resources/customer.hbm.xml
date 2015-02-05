@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="domain.Customer" table="Customer">
+        <id name="customerId" type="java.lang.Long">
+            <column name="customerId" />
+            <generator class="identity"/>
+        </id>
+        <joined-subclass name="domain.RealCustomer">
+                <key column="customerId"></key>
+                <property name="nationalId" type="int" column="nationalId" not-null="true"/>
+                <property name="first" type="string" column="first" not-null="true"/>
+                <property name="last" type="string" column="last" not-null="true"/>
+                <property name="fatherName" type="string" column="fatherName" not-null="true"/>
+                <property name="birthDate" type="string" column="birthDate" not-null="true"/>
+        </joined-subclass>
+        <joined-subclass name="domain.LegalCustomer">
+                <key column="customerId"></key>
+                <property name="economicId" type="int" column="economicId" not-null="true" />
+                <property name="name" type="java.lang.String" column="name" not-null="true" />
+                <property name="registerDate"  type="java.lang.String" column="registerDate" not-null="true"/>
+        </joined-subclass>
+    </class>
+</hibernate-mapping>

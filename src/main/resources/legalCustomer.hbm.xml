@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="domain.LegalCustomer" table="REGISTRATION_LEGAL_CUSTOMERS">
+    <meta attribute="class-description"> This class contains the legal customers detail. </meta>
+    <id name="customerId" type="java.lang.Long">
+        <column name="customerId" />
+        <generator class="foreign">
+            <param name="property">customer</param>
+        </generator>
+    </id>
+    <property name="economicId" type="int">
+        <column name="economicId" not-null="true" />
+    </property>
+    <property name="name" type="java.lang.String">
+        <column name="name" not-null="true" />
+    </property>
+    <property name="registerDate"  type="java.lang.String">
+        <column name="registerDate" not-null="true"/>
+    </property>
+</class>
+</hibernate-mapping>
